@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>ENROLLMENT FORM<h1>
+    <div class="container centre">
+        <table>
+            <tr>
+                <td>
+                    <i>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="Name">Full Name</label>
+                            <input type="text" placeholder="Enter Your Name" name="Name" id="Name" required>
+                        </div>
+                        <div>
+                            <label for="Mobile">Mobile</label>
+                            <input placeholder="Enter Your Mobile" type="text" name="Mobile" id="Mobile" required>
+                        </div>
+                        <div>
+                            <label for="Email">Email</label>
+                            <input placeholder="Enter Your Email" type="text" name="Email" id="Email" required>
+                        </div>
+                        <div>
+                            <label for="Address">Address</label>
+                            <input placeholder="Enter Your Address" type="text" name="Address" id="Address" required>
+                        </div>
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </td>
+            </tr>
+        
+            <tr>
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name &nbsp; &nbsp; </th>
+                                <th>Mobile&nbsp; &nbsp; </th>
+                                <th>Email &nbsp; &nbsp; </th>
+                                <th>Address &nbsp; &nbsp; </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </i>
+                </td>
+            </tr>
+        </table>
+        <script src="script.js" defer> </script>
+    </div>
+</body>
+</html>
